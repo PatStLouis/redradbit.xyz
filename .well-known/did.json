@@ -1,6 +1,16 @@
 {
     "@context": [
-        "https://www.w3.org/ns/did/v1"
+        "https://www.w3.org/ns/did/v1",
+        {
+            "DiscordAPI": "https://discord.com/developers/docs/reference"
+        }
     ],
-    "id": "did:web:redradbit.xyz"
+    "id": "did:web:redradbit.xyz",
+    "service": [
+        {
+            "type": "DiscordAPI",
+            "id": "did:web:redradbit.xyz#discord",
+            "serviceEndpoint": "https://discord.com/api/v10/users/329825514007298052"
+        }
+    ]
 }
