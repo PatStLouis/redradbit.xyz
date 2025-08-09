@@ -8,6 +8,20 @@
         }
     ],
     "id": "did:web:redradbit.xyz",
+    "authentication": [
+        "did:web:redradbit.xyz#z6Mkf5rGMoatrSj1f4CyvuHBeXJELe9RPdzo2PKGNCKVtZxP"
+    ],
+    "assertionMethod": [
+        "did:web:redradbit.xyz#z6Mkf5rGMoatrSj1f4CyvuHBeXJELe9RPdzo2PKGNCKVtZxP"
+    ],
+    "verificationMethod": [
+        {
+            "type": "Multikey",
+            "id": "did:web:redradbit.xyz#z6Mkf5rGMoatrSj1f4CyvuHBeXJELe9RPdzo2PKGNCKVtZxP",
+            "controller": "did:web:redradbit.xyz",
+            "publicKeyMultibase": "z6Mkf5rGMoatrSj1f4CyvuHBeXJELe9RPdzo2PKGNCKVtZxP"
+        }
+    ],
     "service": [
         {
             "type": "Discord",
