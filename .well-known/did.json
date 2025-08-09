@@ -2,7 +2,8 @@
     "@context": [
         "https://www.w3.org/ns/did/v1",
         {
-            "Discord": "https://discord.com/developers/docs/reference"
+            "Discord": "https://discord.com/developers/docs/reference",
+            "Twitch": "https://dev.twitch.tv/docs/api/reference"
         }
     ],
     "id": "did:web:redradbit.xyz",
@@ -11,6 +12,11 @@
             "type": "Discord",
             "id": "did:web:redradbit.xyz#discord",
             "serviceEndpoint": "https://discord.com/api/v10/users/329825514007298052"
+        },
+        {
+            "type": "Twitch",
+            "id": "did:web:redradbit.xyz#twitch",
+            "serviceEndpoint": "https://api.twitch.tv/helix/users?id=171084811"
         }
     ]
 }
